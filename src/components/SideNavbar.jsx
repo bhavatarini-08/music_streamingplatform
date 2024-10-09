@@ -10,7 +10,7 @@ const SideNavbar = () => {
       </div>
       
       <nav className="space-y-4">
-        <NavLink to="/" className={({ isActive }) => `flex items-center space-x-3 ${isActive ? 'text-white' : 'text-gray-300 hover:text-white'} transition-colors`}>
+        <NavLink to="/home" className={({ isActive }) => `flex items-center space-x-3 ${isActive ? 'text-white' : 'text-gray-300 hover:text-white'} transition-colors`}>
           <Home size={20} />
           <span>Home</span>
         </NavLink>
